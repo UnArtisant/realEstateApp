@@ -3,9 +3,9 @@ import Link from "next/link";
 
 function Banner({purpose, title1, title2, desc1, desc2, buttonText, linkName, imageUrl}) {
     return <div className="flex justify-center items-center m-10">
-            <div className="md:flex">
-                <Image src={imageUrl} width={500} height={300} />
-                <div className="p-5 max-w-80">
+            <div className="md:flex ">
+                <img src={imageUrl} className="w-96 lg:w-auto lg:max-w-3xl" alt=""/>
+                <div className="p-5 w-80">
                     <p className="text-gray-500 my-2 text-sm font-medium">{purpose}</p>
                     <div className="my-3">
                         <h1 className="text-3xl font-bold">{title1}</h1>
