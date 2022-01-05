@@ -9,7 +9,6 @@ import Property from "../components/Property";
 import noresult from "../assets/noResult.svg"
 
 function Search({properties}) {
-    console.log(properties)
     const [searchFilter, setSearchFilter] = useState(false)
     const router = useRouter()
     return <DefaultLayout>
